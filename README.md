@@ -11,7 +11,7 @@ Elle utilise Node.js, Express et MySQL (WAMP).
 
 1. **Cloner le projet**  
    ```bash
-   git clone <url-du-repo>
+   git clone https://github.com/AdRI3n30/CodinGameB2
    cd CodinGameB2
    ```
 
@@ -140,4 +140,4 @@ N’oubliez pas d’envoyer les données au format JSON dans le body pour les PO
 
 ## Auteur
 
-Projet réalisé par Adrien pour CodinGameB2.
+Projet réalisé par Adrien Borée et Nathan Novarese pour  le module CodingGame.
