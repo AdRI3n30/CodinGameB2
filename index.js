@@ -194,3 +194,10 @@ app.delete('/participations/:id_abonne/:id_cours/:date_participation', (req, res
 app.listen(3000, () => {
     console.log('API démarrée sur http://localhost:3000');
 });
+
+app.use((req, res) => {
+    res.status(404).json({
+        erreur: "Cette route n'existe pas sur l'API Sallesport.",
+        info: "Consultez la documentation pour les routes disponibles : /abonnes, /coachs, /cours, /participations (GET, POST, PUT, DELETE)."
+    });
+});
